@@ -8,17 +8,17 @@
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .titulo_header{
 
-    color: rgb(77, 77, 77);
+    color: black;
 
 }
 
 .subtitulo_header{
 
-    color: rgb(77, 77, 77);
+    color: black;
 }
 
 .encabezado{
@@ -30,12 +30,37 @@
 
 #Experiencia{
     margin-top: 50px;
+    color: rgb(77, 77, 77);
 }
 
-footer i {
+.info{
+    margin-bottom: 50px;
+}
+#Portafolio{
+    color: rgb(77, 77, 77);
+    margin-bottom: 50px;
+}
+
+#Contacto{
+    color: rgb(77, 77, 77);
+    margin-bottom: 50px;
+}
+
+.footer{
+    text-align: center;
+    
+}
+ footer i {
+  
     margin-bottom: 30px;
     margin-left: 10px;
+    padding-top: 20px;
   }
+  .footer a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  /*
   
   footer h3{
     color: white;
@@ -50,12 +75,10 @@ footer i {
     color: #ffffff;
   }
   
-  .footer-negro a{
-    color: #ffffff;
-    text-decoration: none;
-  }
+
   
   footer {
-    padding: 30px;
+    padding: 50px;
     margin-top: 50px;
   }
+ */
