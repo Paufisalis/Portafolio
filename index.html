@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Portafolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Paufisalis</a>
+        <a class="navbar-brand navbar-titulo pl-2" href="#">Paufisalis</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,69 +22,101 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link js-scroll-trigger" href="#Inicio">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
+              <a class="nav-link js-scroll-trigger" href="#Experiencia">Experiencia</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Habilidades</a>
+              <a class="nav-link js-scroll-trigger" href="#Portafolio">Portafolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Potafolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link js-scroll-trigger" href="#Contacto">Contacto</a>
             </li>
             
           </ul>
         </div>
     </nav>
-    <!--NAVBAR-->  
 
-    <!--HEADER-->      
-      <main role="main">
-      
-        <section class="jumbotron text-center">
-          <div class="container">
+    <!--NAVBAR--> 
 
-            <h1>Hola soy Paulina</h1>
-            <p class="lead text-muted">Diseñadora Gráfica</p>
-            <p>
-              <a href="#" class="btn btn-primary my-2">Experiencia</a>
-              <a href="#" class="btn btn-secondary my-2">Portafolio</a>
-            </p>
-
-          </div>
-        </section>
+    <!--MAIN--> 
+    <main role="main">
 
 
-
-
-        <header class="encabezado">
+    <!--HEADER--> 
+          <header class="encabezado" id="Inicio">
             <div class="container">
                 <hr class="barra__separacion barra__carrusel d-sm-block d-lg-none">
                 <div class="row justify-content-md-center mt-4 mb-5">
-                    <div class="col-12 col-lg-6">
-                        <img src="assets/img/principal.jpg"alt="foto_ppal" class="img-fluid">
+                    <div class="col-12 col-lg-4">
+                    
                     </div>
-                    <div class="col-12 col-lg-6 texto">
-                        <h1 class="text_center text-lg-left titulo_header">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
-                        <hr class="mt-4 barra">
-                        <p class="mt-4 text-center text-lg-left subtitulo_header">110 MIN / 6 A 8 PORCIONES</h3>
-                        <div class="mt-4 text-center text-lg-left botoncito">     
-                            <button type="submit" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo">Enviar por Correo</button>
-                            <button type="submit" class="btn btn-outline-dark ml-4" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos">Añadir a Favoritos</button>
+                    <div class="col-12 col-lg-4">
+                    
+                    </div>
+                    <div class="col-12 col-lg-4 texto">
+                        <h1 class="text_center text-lg-left titulo_header">Paulina</h1>
+                        <p class="mt-3 text-center text-lg-left subtitulo_header">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, dolorum repellat commodi, consequatur porro error debitis exercitationem vitae, dolor accusamus quidem qui sunt. Alias pariatur deserunt voluptate debitis, cum consequatur?</h3>
+                        <div class="mt-3 text-center text-lg-left botoncito">     
+                            <button type="submit" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar a tu correo" >Experiencia</button>
+                            <button type="submit"  class="btn btn-outline-dark ml-4" data-toggle="tooltip" data-placement="right" title="Agrega esta receta a tus favoritos" >Portafolio</button>
                         </div>
                     </div>
                 </div>
-            </div>    
-        </header> 
-     <!--HEADER-->  
+            </div>  
+        </header>  
+    <!--HEADER-->  
+
+    <!--EXPERIENCIA-->  
+     <section class="page-section" id="Experiencia">
+      <div class="container">
+        <h2 class="text-center mt-0">Experiencia</h2>
+        <hr class="divider my-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Papelería</h3>
+              <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+              
+              <h3 class="h4 mb-2">Packaging</h3>
+              <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Web</h3>
+              <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <i class="fas fa-4x fa-heart text-primary mb-4"></i>
+              <h3 class="h4 mb-2">Ilustración</h3>
+              <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--EXPERIENCIA-->  
+    <!--TRABAJOS--> 
+    
+      <section id="Portafolio">
+        <h2 class="titulo-trabajos text-center mt-5">Mis Trabajos</h2>
+        <hr class="divider my-4">
         <div class="album py-5 bg-light">
           <div class="container">
-      
+           
             <div class="row">
+              
               <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
                   <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -90,7 +125,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        
                       </div>
                       <small class="text-muted">9 mins</small>
                     </div>
@@ -105,7 +140,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        
                       </div>
                       <small class="text-muted">9 mins</small>
                     </div>
@@ -120,53 +155,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-      
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        
                       </div>
                       <small class="text-muted">9 mins</small>
                     </div>
@@ -182,7 +171,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                       
                       </div>
                       <small class="text-muted">9 mins</small>
                     </div>
@@ -197,7 +186,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                       
                       </div>
                       <small class="text-muted">9 mins</small>
                     </div>
@@ -212,7 +201,53 @@
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                       
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                        
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                       
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                       
                       </div>
                       <small class="text-muted">9 mins</small>
                     </div>
@@ -222,27 +257,58 @@
             </div>
           </div>
         </div>
+      </section>
+      <!--TRABAJOS-->   
       
       </main>
+      <!--MAIN-->
       
-      
-          <!--FOOTER-->
-      <footer class="text-muted">
-        <div class="container">
-          <p class="float-right">
-            <a href="#">Back to top</a>
-          </p>
-          <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-          <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="/docs/4.4/getting-started/introduction/">getting started guide</a>.</p>
+
+
+      <!--CONTACTO--> 
+  <section class="page-section" id="Contacto">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Contacto</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
         </div>
-      </footer>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <div>+1 (202) 555-0149</div>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--CONTACTO--> 
+    <!-- FOOTER -->
+    <footer class="footer-negro bg-dark mx-auto">
+      <div class="container">
+        <a href="htpps://github.com"><i class="fab fa-github fa-2x"></i></a>
+            <a href="htpps://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="htpps://linkedin.com"><i class="fab fa-linkedin-in fa-2x"></i></a>
+      </div>
+    </footer>
+    <!-- FOOTER -->
 
+        <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-
-
-    <!--FOOTER-->
-
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

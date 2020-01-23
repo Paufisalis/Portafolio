@@ -1,0 +1,61 @@
+.navbar-titulo{
+    font-family: 'Oleo Script', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.texto{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: white;
+    opacity: 0.5;
+}
+.titulo_header{
+
+    color: rgb(77, 77, 77);
+
+}
+
+.subtitulo_header{
+
+    color: rgb(77, 77, 77);
+}
+
+.encabezado{
+    background-image: url(../img/foto4.jpg);
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#Experiencia{
+    margin-top: 50px;
+}
+
+footer i {
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  
+  footer h3{
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+  
+  .footer-negro {
+    background: #000f08;
+    color: #ffffff;
+  }
+  
+  .footer-negro a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer {
+    padding: 30px;
+    margin-top: 50px;
+  }
