@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif; 
-    color: rgb(77, 77, 77);   
+    /* color: rgb(77, 77, 77);    */
+    color: white;
+    margin: 0;
 }
 
 body *{
@@ -21,7 +23,8 @@ span{
 }
 
 .barra{
-    border: solid #303030 0.5px;
+  
+    border: solid #dfab00 2px;
 }
 
 
@@ -54,8 +57,10 @@ span{
 
 /*HEADER*/
 
-.header{
+.encabezado{
+    width: 100%;
     background-color: goldenrod;
+    vertical-align: middle;
 }
 
 .titulo_header{
@@ -69,7 +74,10 @@ span{
 }
 
 .texto{
-    padding-top: 50px;
+
+    padding-top: 100px;
+    padding-bottom: 30px;
+    vertical-align: auto;
 }
 
 
@@ -89,13 +97,11 @@ header{
     text-align: center;
 }
 
-.botoncito{
-    color: #000000;
-}
 .foto-pau{
     width: 90%;
     height: auto;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     vertical-align: auto;
 }
 
@@ -103,8 +109,14 @@ header{
 /*HEADER*/
 
 /*EXPERIENCIA*/
+.fas{
+    color:rgba(218, 0, 73, 0.9) !important;
+}
 
-
+h3{
+    color:rgba(218, 0, 73, 0.9) !important;
+    font-family: 'Lobster', cursive;
+}
 /*EXPERIENCIA*/
 
 /*PORTAFOLIO*/
@@ -186,7 +198,10 @@ header{
 
 /*CARRUSEL*/
 
-
+.d-block w-50{
+    width: 80px;
+    height: auto;
+}
 
 .carousel-inner{
     color: white;
