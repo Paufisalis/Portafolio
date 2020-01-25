@@ -1,7 +1,58 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(77, 77, 77);   
+}
+
+body *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+span{
+    font-family: 'Lobster', cursive;
+}
+
+.barra{
+    border: solid #303030 0.5px;
+}
+
+
+/*NAAVBAR*/
 .navbar-titulo{
-    font-family: 'Oleo Script', cursive;
     font-size: 2rem;
     color: white;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+/*NAVBAR*/
+
+/*HEADER*/
+.header{
+    background-image: url(../img/foto4.jpg);
+    background-repeat: no-repeat;
+}
+
+.titulo_header{
+    color: black;
+}
+
+.subtitulo_header{
+    color: black;
 }
 
 .texto{
@@ -10,49 +61,157 @@
     background-color: white;
     opacity: 0.8;
 }
-.titulo_header{
+/*HEADER*/
 
-    color: black;
-
-}
-
-.subtitulo_header{
-
-    color: black;
-}
-
-.encabezado{
-    background-image: url(../img/foto4.jpg);
-    background-repeat: no-repeat;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
+/*EXPERIENCIA*/
 #Experiencia{
-    margin-top: 50px;
-    color: rgb(77, 77, 77);
+   
 }
 
-.info{
-    margin-bottom: 50px;
-}
+/*EXPERIENCIA*/
+
+/*PORTAFOLIO*/
 #Portafolio{
-    color: rgb(77, 77, 77);
-    margin-bottom: 50px;
+  
 }
 
+#portfolio .container-fluid {
+    max-width: 1920px;
+    margin-top: 50px;
+}
+  
+#portfolio .container-fluid .portfolio-box {
+    position: relative;
+    display: block;
+}
+  
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(218, 0, 73, 0.9);
+    transition: opacity 0.25s ease;
+    text-align: center;
+}
+  
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+  
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 1.2rem;
+}
+  
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+.foto-coffee{
+    width: 100%;
+    height:300px;
+  }
+
+  .foto-ricomida{
+    width: 100%;
+    height:300px;
+  }
+
+  .foto-cupon{
+    width: 100%;
+    height:300px;
+}
+
+.foto-iguana{
+    width: 100%;
+    height:300px;
+}
+
+.foto-suricata{
+    width: 100%;
+    height:300px;
+    background-color: #E83E8C;
+ }
+
+.foto-tarjetas{
+    width: 100%;
+    height:300px;
+}
+/*PORTAFOLIO*/
+
+
+/*CARRUSEL*/
+
+.carrusel{
+    height: 200px;
+}
+
+.habilidades{
+    color: white;
+    padding-top: 20px;
+}
+
+.col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+
+.carousel-indicators{
+    bottom: -70px;
+    margin-bottom: 1rem;
+}
+.carousel-indicators li{
+    
+    border-radius: 50%;
+    height: 10pt;
+    width: 10pt;
+}
+.carrusel-row{
+    padding-left: 30%;
+    padding-top: 20px;
+}
+.carrusel{
+ 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: goldenrod;
+    height: 250px;
+}
+
+
+/*CARRUSEL*/
+
+
+/*CONTACTO*/
 #Contacto{
-    color: rgb(77, 77, 77);
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
+/*CONTACTO*/
+
+
+/*FOOTER*/
+.i{
+    color: white !important;
+    background-color: white !important;
+}
 .footer{
     text-align: center;
-    
+    height: 100px;
 }
- footer i {
-  
-    margin-bottom: 30px;
+ footer i { 
     margin-left: 10px;
     padding-top: 20px;
   }
@@ -60,25 +219,15 @@
     color: #ffffff;
     text-decoration: none;
   }
-  /*
-  
-  footer h3{
-    color: white;
-    font-weight: lighter;
-    font-size: 12px;
-    padding-bottom: 30px;
-    margin-bottom: 0;
+  .fas{
+    color: rgb(77, 77, 77);
   }
-  
-  .footer-negro {
-    background: #000f08;
-    color: #ffffff;
-  }
-  
 
-  
-  footer {
-    padding: 50px;
-    margin-top: 50px;
-  }
- */
+/*FOOTER*/
+
+
+
+
+
+
+
