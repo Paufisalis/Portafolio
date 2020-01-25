@@ -11,6 +11,13 @@ body *{
 
 span{
     font-family: 'Lobster', cursive;
+
+}
+
+.nombre{
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .barra{
@@ -39,41 +46,68 @@ span{
     left: 0;
     z-index: 1030;
 }
+
+.logo-pau{
+    width: 150px;
+}
 /*NAVBAR*/
 
 /*HEADER*/
+
 .header{
-    background-image: url(../img/foto4.jpg);
-    background-repeat: no-repeat;
+    background-color: goldenrod;
 }
 
 .titulo_header{
-    color: black;
+    font-weight: 700;
+    font-size: 4rem;
 }
 
 .subtitulo_header{
-    color: black;
+    font-weight: 700;
+    font-size: 1.6rem;
 }
 
 .texto{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: white;
-    opacity: 0.8;
+    padding-top: 50px;
 }
+
+
+
+header{
+    margin-bottom: 4rem;
+}
+.titulo_header{
+    font-weight: 700;
+    font-size: 3.3rem;
+    text-align: center;
+}
+
+.subtitulo_header{
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.botoncito{
+    color: #000000;
+}
+.foto-pau{
+    width: 90%;
+    height: auto;
+    padding-top: 50px;
+    vertical-align: auto;
+}
+
+
 /*HEADER*/
 
 /*EXPERIENCIA*/
-#Experiencia{
-   
-}
+
 
 /*EXPERIENCIA*/
 
 /*PORTAFOLIO*/
-#Portafolio{
-  
-}
 
 #portfolio .container-fluid {
     max-width: 1920px;
@@ -120,12 +154,12 @@ span{
 .foto-coffee{
     width: 100%;
     height:300px;
-  }
+}
 
-  .foto-ricomida{
+.foto-ricomida{
     width: 100%;
     height:300px;
-  }
+}
 
   .foto-cupon{
     width: 100%;
@@ -152,19 +186,23 @@ span{
 
 /*CARRUSEL*/
 
-.carrusel{
-    height: 200px;
-}
 
-.habilidades{
+
+.carousel-inner{
     color: white;
     padding-top: 20px;
+
 }
 
 .col-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 100px;
+    
+}
+
+col{
+   
 }
 
 .carousel-indicators{
@@ -179,14 +217,16 @@ span{
 }
 .carrusel-row{
     padding-left: 30%;
+    background-color: goldenrod;
     padding-top: 20px;
+    
 }
 .carrusel{
- 
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: goldenrod;
-    height: 250px;
+    height: 500px;
+  
+    width: 100%;
 }
 
 
