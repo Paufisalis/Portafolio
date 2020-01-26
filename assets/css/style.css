@@ -3,7 +3,7 @@ body{
     /* color: rgb(77, 77, 77);    */
     color: white;
     margin: 0;
-   
+    
 }
 
 body *{
@@ -14,7 +14,7 @@ body *{
 
 span{
     font-family: 'Lobster', cursive;
-
+    
 }
 
 .nombre{
@@ -24,7 +24,7 @@ span{
 }
 
 .barra{
-  
+    
     border: solid #dfab00 2px;
 }
 .btn{
@@ -39,7 +39,7 @@ span{
 /*NAAVBAR*/
 .navbar{
     box-shadow: 2px 2px 5px #999;
-
+    
 }
 .navbar-titulo{
     font-size: 2rem;
@@ -73,7 +73,7 @@ span{
     color:rgba(218, 0, 73, 0.9) !important;
     font-family: 'Lobster', cursive;
     color: rgb(77, 77, 77);
-
+    
 }
 
 .modal-body{
@@ -98,7 +98,7 @@ span{
 }
 
 .texto{
-
+    
     padding-top: 100px;
     padding-bottom: 30px;
     vertical-align: auto;
@@ -135,32 +135,32 @@ span{
     height: 300px;
     justify-content: center;
     margin-top: 20px;
-  }
-  
-  @-webkit-keyframes scroll {
+}
+
+@-webkit-keyframes scroll {
     0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(calc(-250px * 7));
-              transform: translateX(calc(-250px * 7));
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7));
     }
-  }
-  
-  @keyframes scroll {
+}
+
+@keyframes scroll {
     0% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(calc(-250px * 7));
-              transform: translateX(calc(-250px * 7));
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7));
     }
-  }
+}
 
 
-  .slider {
+.slider {
     background: transparent;
     height: 300px;
     margin: auto;
@@ -168,36 +168,36 @@ span{
     position: relative;
     width: 960px;
     padding-top: 50px;
-  }
-  .slider::before, .slider::after {
+}
+.slider::before, .slider::after {
     background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
     height: 100px;
     position: absolute;
     width: 200px;
     z-index: 2;
-  }
-  .slider::after {
+}
+.slider::after {
     right: 0;
     top: 0;
     -webkit-transform: rotateZ(180deg);
-            transform: rotateZ(180deg);
-  }
-  .slider::before {
+    transform: rotateZ(180deg);
+}
+.slider::before {
     left: 0;
     top: 0;
-  }
-  .slider .slide-track {
+}
+.slider .slide-track {
     -webkit-animation: scroll 40s linear infinite;
-            animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
     display: flex;
     width: calc(250px * 14);
     margin-top: 30px;
-  }
-  .slider .slide {
+}
+.slider .slide {
     height: 100px;
     width: 250px;
-  }
+}
 
 
 
@@ -205,7 +205,7 @@ span{
     background-image: url(../img/fondo.png);
     background-repeat: no-repeat;
     background-size: cover; 
-   
+    
 }
 #Experiencia{
     margin-top: 50px;
@@ -239,7 +239,7 @@ h3{
     text-align: center;
     font-family: 'Roboto', sans-serif; 
     font-weight: 400;
-
+    
 }
 .uno{
     width: 40%;
@@ -287,14 +287,14 @@ h3{
 
 #portfolio .container-fluid {
     max-width: 1920px;
-  
+    
 }
-  
+
 #portfolio .container-fluid .portfolio-box {
     position: relative;
     display: block;
 }
-  
+
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
     display: flex;
     align-items: center;
@@ -311,18 +311,18 @@ h3{
     transition: opacity 0.25s ease;
     text-align: center;
 }
-  
+
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
 }
-  
+
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
     font-size: 1.2rem;
 }
-  
+
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
 }
@@ -369,17 +369,17 @@ h3{
     color: white;
     padding-bottom: 50px;
     padding-top: 50px;
-   
 }
 
 .text-hab{
     font-weight: 700;
     font-size: 40px;
+    width: 100%;
 }
 
 
 
- img.img-responsive{
+img.img-responsive{
     width: 100px;
     display: inline-block;
 }
@@ -392,7 +392,7 @@ h3{
 .carousel-inner{
     color: white;
     padding-top: 20px;
-   
+    
 }
 
 
@@ -425,7 +425,7 @@ h3{
     text-align: center;
     display: inline-block;
 }
-    
+
 
 
 .adobe{
@@ -438,8 +438,8 @@ h3{
 
 /*CONTACTO*/
 .Contacto{
-   margin-top: 0;
-   margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     color: rgb(77, 77, 77) ;
 }
 
@@ -468,27 +468,26 @@ h3{
 .footer{
     text-align: center;
     height: 100px;
-   
 }
 
 footer i { 
     margin-left: 10px;
     padding-top: 20px;
-  }
+}
 
-  .footer a{
+.footer a{
     color: #ffffff;
     text-decoration: none;
-  }
-  .small{
+}
+.small{
     color: white !important;
-  }
-  .footer{
-      margin-top: 0;
-      background-color: #E83E8C !important;
-      color: white !important;
-      
-  }
+}
+.footer{
+    margin-top: 0;
+    background-color: #E83E8C !important;
+    color: white !important;
+    
+}
 
 /*FOOTER*/
 
